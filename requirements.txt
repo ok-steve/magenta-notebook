@@ -1,1 +1,2 @@
-magenta==0.3.12
+gym==0.12.5
+magenta==1.1.3

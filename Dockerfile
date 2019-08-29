@@ -1,4 +1,4 @@
-FROM jupyter/tensorflow-notebook:cf57ef145dce
+FROM jupyter/tensorflow-notebook:822f02b8ce23
 
 USER root
 
