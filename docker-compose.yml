@@ -2,7 +2,6 @@ version: "3.7"
 services:
   notebook:
     build: .
-    image: magenta-notebook
     container_name: "${PROJECT_NAME}_notebook"
     command: jupyter notebook
     ports:
