@@ -4,6 +4,8 @@ services:
     image: magenta-notebook:latest
     container_name: "${PROJECT_NAME}_notebook"
     command: jupyter notebook
+    environment:
+      JUPYTER_TOKEN: $JUPYTER_TOKEN
     ports:
       - 8888:8888
     volumes:
