@@ -99,3 +99,14 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# Jupyter
+.bash_history
+.bashrc
+.conda
+.ipython
+.jupyter
+.keras
+.local
+.wget-hsts
+config
