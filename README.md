@@ -1,13 +1,10 @@
-# magenta-notebook
+# notebooks
 
-Extending the [Jupyter Tensorflow stack](https://github.com/jupyter/docker-stacks) with Magenta.
+A collection of Jupyter notebooks.
 
 ## Getting started
 
-1. Download the repository.
-2. Copy `example.env` to `.env` and fill in values.
-3. Run `make build` to built the notebook and `make up` to start.
-4. Go to `localhost:8888` and enter the value from `JUPYTER_TOKEN` as the password.
+'docker run --rm -it -p 8888:8888 -e GRANT_SUDO=yes --user root -v `pwd`:/home/jovyan jupyter/tensorflow-notebook'.
 
 ## Example notebooks
 
