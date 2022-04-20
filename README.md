@@ -1,10 +1,13 @@
-# notebooks
+# magenta-notebook
 
-A collection of Jupyter notebooks.
+Extending the [Jupyter Tensorflow stack](https://github.com/jupyter/docker-stacks) with Magenta.
 
 ## Getting started
 
-'docker run --rm -it -p 8888:8888 -e GRANT_SUDO=yes --user root -v `pwd`:/home/jovyan jupyter/tensorflow-notebook'.
+1. Download the repository.
+2. Build the image: `docker build -t magenta-notebook .`
+3. Run the image: ``docker run --rm -it -p 8888:8888 -v `pwd`:/home/jovyan/work magenta-notebook``
+4. Open `localhost:8888` in a browser.
 
 ## Example notebooks
 
