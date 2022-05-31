@@ -16,3 +16,7 @@ Extending the [Jupyter Tensorflow stack](https://github.com/jupyter/docker-stack
 - https://github.com/magenta/ddsp/tree/main/ddsp/colab/demos
 - https://goo.gl/magenta/onsets-frames-colab
 - https://colab.research.google.com/notebooks/magenta/hello_magenta/hello_magenta.ipynb
+
+# NSynth
+
+- [Source audio](https://storage.googleapis.com/open-nsynth-super/audio/onss_source_audio.tar.gz)
